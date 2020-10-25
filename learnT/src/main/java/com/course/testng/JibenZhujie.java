@@ -28,4 +28,12 @@ public class JibenZhujie {
     public void afterClass(){
         System.out.println("afterClass这是在类之后运行的方法");
     }
+    @BeforeSuite
+    public void beforeSuite(){
+        System.out.println("beforeSuite测试套件");
+    }
+    @AfterSuite
+    public void afterSuite(){
+        System.out.println("afterSuite测试套件");
+    }
 }
