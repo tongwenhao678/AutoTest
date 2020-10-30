@@ -6,7 +6,13 @@
 
     <groupId>com.course.code</groupId>
     <artifactId>learnT</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>learnT</module>
+        <module>Learn6</module>
+        <module>learn6</module>
+    </modules>
 
     <dependencies>
         <dependency>
@@ -23,4 +29,3 @@
         <maven.compiler.target>9</maven.compiler.target>
     </properties>
 </project>
-

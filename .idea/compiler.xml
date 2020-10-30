@@ -2,15 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+      <profile name="Annotation profile for learnT" enabled="true">
+        <sourceOutputDir name="learnT/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="learnT/target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="learn5" />
+        <module name="AutoTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="learn5" target="9" />
+      <module name="AutoTest" target="9" />
+      <module name="Chapter6" target="1.5" />
+      <module name="Chapter6 (1)" target="1.5" />
+      <module name="learn6" target="9" />
+      <module name="Learn6" target="9" />
+      <module name="learnT" target="9" />
+      <module name="untitled1029" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
